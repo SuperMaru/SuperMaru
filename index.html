@@ -1,11 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
- <meta charset='utf-8'>
- <link rel="stylesheet" href="style.css">
- <form method="Post" action="">
- <title>questo é un test</title>
-   <script type='text/javascript'>
+    <script type='text/javascript'>
         function calculatrice(n){
             document.forms['form'].elements['calcul'].value+=n;
             
@@ -15,22 +11,26 @@
          }
 
     </script>
- </head>
- <body>
-  </br>
- </br>
- </br>
+ <meta charset='utf-8'>
  
-<center><h1>Ciao !!!!!!!! </h1> </center>
-<center><h1>é un sito di prova</h1> </center>
-   <form id="form">
+ 
+ 
+ </head>
+ <body align="center">
+    
+        <h1>Ciao !!!!!!!! </h1>
+        <h1>é un sito di prova</h1> 
+   
+     <form id="form">
      <p><input type="text" name="calcul"/></p>
      <p><input type="button" value='7' onClick="calculatrice('7')"/>&nbsp;<input type="button" value='8' name='8' onClick="calculatrice('8')"/>&nbsp;<input type="button" value='9' name='9' onClick="calculatrice('9')" />&nbsp;<input type="button" value='x' name='x' onClick="calculatrice('*')"/></p>
      <p><input type="button" value='4' name='4' onClick="calculatrice('4')"/>&nbsp;<input type="button" value='5' name='5' onClick="calculatrice('5')"/>&nbsp;<input type="button" value='6' name='6'onClick="calculatrice('6')" />&nbsp;<input type="button" value='-' name='-' onClick="calculatrice('-')" /></p>
      <p><input type="button" value='1' name='1' onClick="calculatrice('1')"/>&nbsp;<input type="button" value='2' name='2' onClick="calculatrice('2')"/>&nbsp;<input type="button" value='3' name='3'  onClick="calculatrice('3')"/>&nbsp;<input type="button" value='+' name='+' onClick="calculatrice('+')" /></p>
      <p><input type="button" value='/' name='/' onClick="calculatrice('/')" />&nbsp;<input type="button" value=',' name=',' onClick="calculatrice(',')" />&nbsp;<input type="button" value='0' name='0' onClick="calculatrice('0')" />&nbsp;<input type="button" value="=" onClick="result()" /></p>
 
+  
     </form>
+    
 
 </body>
 </html>
